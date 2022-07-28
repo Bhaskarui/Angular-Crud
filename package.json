@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "mock:server": "json-server --watch db.json"
   },
   "private": true,
   "dependencies": {
@@ -18,6 +19,11 @@
     "@angular/platform-browser": "~13.3.0",
     "@angular/platform-browser-dynamic": "~13.3.0",
     "@angular/router": "~13.3.0",
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.2.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.0",
+    "popper": "^1.0.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
